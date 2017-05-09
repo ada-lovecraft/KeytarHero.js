@@ -4,7 +4,9 @@ Because sometimes what you need is a simple and dumb answer, and all you can fin
 So, you have an app, doodle, animation, sktech, or a game that has a constantly running `raf` cycle and you want to interact with it with your keyboard.
 
 You -could- use the built in `keydown` event listener:
-```document.addEventListener('keydown', function(e) { 
+
+```javascript
+document.addEventListener('keydown', function(e) { 
   switch(e.keyCode) {
   }
 })
@@ -18,7 +20,7 @@ BUT STILL. WHO'S GOT TIME FOR IT?!
 Presenting: ***KEYTAR HERO DOT JS***
 Here's how to use it:
 
-```
+```javascript
 // create a new isntance of KeytarHero
 const keys = new KeytarHero()
 
