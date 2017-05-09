@@ -1,7 +1,7 @@
 # KeytarHero.js
 Because sometimes what you need is a simple and dumb answer, and all you can find are over-engineered pieces of crap.
 
-So, you have an app, doodle, animation, sktech, or a game that has a constantly running `raf` cycle and you want to interact with it with your keyboard.
+So, you have an app, doodle, animation, sketch, or a game that has a constantly running `raf` cycle and you want to interact with it with your keyboard.
 
 You -could- use the built in `keydown` event listener:
 
@@ -13,12 +13,12 @@ document.addEventListener('keydown', function(e) {
 ```
 But now you not only have callbacks firing out of time-step with your art, but... how many keyCodes can -YOU- name?
 
-Wow... uhh... that as more than I thought...
+Wow... uhh... that is more than I figured...
 
 BUT STILL. WHO'S GOT TIME FOR IT?!
 
 Presenting: ***KEYTAR HERO DOT JS***
-Here's how to use it:
+Here's how it'll help:
 
 ```javascript
 // create a new isntance of KeytarHero
@@ -40,8 +40,8 @@ function loop {
 
 ``` 
 
-**KEYTAR HERO** uses a patented `Set` method to garauntee only one instance of key is every counted at a time. And  should
-your browser lose focus... KeytarHero just lets the keys go... No muss. No Fuss. No odd behaviors because your browser things you're still holding down a key!
+**KEYTAR HERO** uses a patented method based on the [`Set` data structure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) to garauntee only one instance of key is every counted at a time. And  should
+your browser lose focus... KeytarHero just lets the keys go... No muss. No Fuss. No odd behaviors because your browser thinks you're still holding down a key!
 
 
 Order now, and you'll recieve over a 100 of the best keys of all time, including these classic favorites:
